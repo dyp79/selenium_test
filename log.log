@@ -1,0 +1,20 @@
+  File "F:/pc-work3/v_yanpdu/test05.py", line 111, in <module>
+    SelfException().main()
+  File "F:/pc-work3/v_yanpdu/test05.py", line 97, in main
+    self.firstMethod()
+  File "F:/pc-work3/v_yanpdu/test05.py", line 100, in firstMethod
+    self.secondMethod()
+  File "F:/pc-work3/v_yanpdu/test05.py", line 103, in secondMethod
+    self.thirdMethod()
+  File "F:/pc-work3/v_yanpdu/test05.py", line 106, in thirdMethod
+    raise SelfException("自定义异常信息")
+  File "F:/pc-work3/v_yanpdu/test05.py", line 111, in <module>
+    SelfException().main()
+  File "F:/pc-work3/v_yanpdu/test05.py", line 97, in main
+    self.firstMethod()
+  File "F:/pc-work3/v_yanpdu/test05.py", line 100, in firstMethod
+    self.secondMethod()
+  File "F:/pc-work3/v_yanpdu/test05.py", line 103, in secondMethod
+    self.thirdMethod()
+  File "F:/pc-work3/v_yanpdu/test05.py", line 106, in thirdMethod
+    raise SelfException("自定义异常信息")
